@@ -160,8 +160,8 @@ body {
                 width: 8rem;
                 height: 6.5rem;
                 background-color: #3f3f50;
-                .img-fluid{
-                    height:100%;
+                .img-fluid {
+                    height: 100%;
                     object-fit: cover;
                 }
             }
@@ -271,6 +271,8 @@ body {
         }
         img {
             width: 80%;
+            height: 30rem;
+            object-fit: contain;
         }
         svg {
             margin-top: 3rem;
