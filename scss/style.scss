@@ -43,7 +43,7 @@ body {
 }
 .banner {
     background-color: #353543;
-    min-height: 34rem;
+    height: 34rem;
     padding: 3rem 0;
     .banner-content {
         .bg-image {
@@ -456,6 +456,9 @@ footer {
 @media screen and (max-width: 768px) {
     html {
         font-size: 90%;
+    }
+    .banner{
+        height: auto;
     }
     .banner .banner-content .banner-left h1 {
         padding-top: 0;
